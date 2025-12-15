@@ -1,0 +1,57 @@
+# ===========================================
+#   GITIGNORE para proyectos Excel + VBA
+# ===========================================
+
+# Archivos temporales de Excel
+~$*.xls*
+*.tmp
+*.temp
+
+# Archivos de Excel que no quieras versionar
+# (si necesitas proteger algún XLSX pesado, descomenta)
+# *.xlsx
+# *.xlsm
+
+# Archivos de copia de seguridad
+*.bak
+*.backup
+*.old
+
+# Archivos generados por Office
+*.lock
+*.laccdb  # Access
+*.ldb
+*.accdr
+*.accdt
+
+# Archivos del editor VBA
+*.exd
+
+# Carpetas de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de caché de MacOS
+._*
+.Spotlight-V100
+.Trashes
+
+# Archivos temporales de Windows
+$RECYCLE.BIN/
+*.lnk
+
+# Carpeta de entorno virtual si se usa alguna herramienta externa
+venv/
+.env/
+__pycache__/
+
+# Archivos de logs
+*.log
+
+# Archivos ZIP o comprimidos generados temporalmente
+*.zip
+*.rar
+*.7z
+
+
